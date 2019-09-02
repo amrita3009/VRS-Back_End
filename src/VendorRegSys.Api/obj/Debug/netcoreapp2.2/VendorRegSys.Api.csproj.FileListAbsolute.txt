@@ -1,0 +1,14 @@
+D:\VRS\VRS\src\VendorRegSys.Api\bin\Debug\netcoreapp2.2\VendorRegSys.Api.deps.json
+D:\VRS\VRS\src\VendorRegSys.Api\bin\Debug\netcoreapp2.2\VendorRegSys.Api.runtimeconfig.json
+D:\VRS\VRS\src\VendorRegSys.Api\bin\Debug\netcoreapp2.2\VendorRegSys.Api.runtimeconfig.dev.json
+D:\VRS\VRS\src\VendorRegSys.Api\bin\Debug\netcoreapp2.2\VendorRegSys.Api.dll
+D:\VRS\VRS\src\VendorRegSys.Api\bin\Debug\netcoreapp2.2\VendorRegSys.Api.pdb
+D:\VRS\VRS\src\VendorRegSys.Api\obj\Debug\netcoreapp2.2\VendorRegSys.Api.csprojAssemblyReference.cache
+D:\VRS\VRS\src\VendorRegSys.Api\obj\Debug\netcoreapp2.2\VendorRegSys.Api.csproj.CoreCompileInputs.cache
+D:\VRS\VRS\src\VendorRegSys.Api\obj\Debug\netcoreapp2.2\VendorRegSys.Api.RazorAssemblyInfo.cache
+D:\VRS\VRS\src\VendorRegSys.Api\obj\Debug\netcoreapp2.2\VendorRegSys.Api.RazorAssemblyInfo.cs
+D:\VRS\VRS\src\VendorRegSys.Api\obj\Debug\netcoreapp2.2\VendorRegSys.Api.AssemblyInfoInputs.cache
+D:\VRS\VRS\src\VendorRegSys.Api\obj\Debug\netcoreapp2.2\VendorRegSys.Api.AssemblyInfo.cs
+D:\VRS\VRS\src\VendorRegSys.Api\obj\Debug\netcoreapp2.2\VendorRegSys.Api.RazorTargetAssemblyInfo.cache
+D:\VRS\VRS\src\VendorRegSys.Api\obj\Debug\netcoreapp2.2\VendorRegSys.Api.dll
+D:\VRS\VRS\src\VendorRegSys.Api\obj\Debug\netcoreapp2.2\VendorRegSys.Api.pdb
