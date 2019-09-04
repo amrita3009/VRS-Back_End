@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/BaseUnitTest/bin/Debug/netcoreapp2.2
+/VRS_Base/.vs/VRS_Base
+/VRS_Base/bin/Debug/netcoreapp2.2
+.vs/VRS_Base/v16/Server/sqlite3/db.lock
