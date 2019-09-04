@@ -16,7 +16,7 @@ namespace VRS_Base.Controllers
         [HttpGet]
         public JsonResult Get()
         {
-            var result = new string[] { "a", "b" };
+            var result = new string[] { "a", "b", "c", "d", "e"};
             return new JsonResult(result.ToList());
         }
 

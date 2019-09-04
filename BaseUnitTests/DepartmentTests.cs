@@ -17,7 +17,7 @@ namespace NUnitTest.Tests
         {
             var departments = new DepartmentsController();
             var data = departments.Get().Value;
-            IEnumerable<string> expectedData = new List<string>() { "a", "b" };
+            IEnumerable<string> expectedData = new List<string>() { "a", "b", "c", "d", "e" };
             Assert.AreEqual(expectedData, data, "departments don't match");
 
         }
