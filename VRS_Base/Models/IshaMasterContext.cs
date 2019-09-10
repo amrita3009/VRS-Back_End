@@ -25,7 +25,7 @@ namespace VRS_Base.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseNpgsql("Host=localhost;Database=IshaMaster;Username=postgres;Password=abcd@1234");
+                optionsBuilder.UseNpgsql("Host=localhost;Database=IshaMaster;Username=postgres;Password=iyc@2019");
             }
         }
 

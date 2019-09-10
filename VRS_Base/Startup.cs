@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Confluent.Kafka;
 
 namespace VRS_Base
 {
@@ -26,6 +27,13 @@ namespace VRS_Base
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            // Create and add producer config to be used by departments controller.
+            var producerConfig = new ProducerConfig { BootstrapServers = "localhost:9092" };
+            
+            Configuration.Bind("producer", producerConfig);
+            services.AddSingleton<ProducerConfig>(producerConfig);
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
