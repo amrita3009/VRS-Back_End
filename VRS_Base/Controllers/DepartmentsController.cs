@@ -25,7 +25,7 @@ namespace VRS_Base.Controllers
         }
 
         // GET api/values
-        [HttpGet]
+        [HttpGet("{id}")]
         public JsonResult Get()
         {
             //var result = new string[] { "a", "b", "c", "d", "e"};
@@ -121,8 +121,8 @@ namespace VRS_Base.Controllers
         //    }
         //}
 
-        [HttpPut]
-        public async Task<IActionResult> PutAsync([FromQuery]int id, [FromBody] string value)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutAsync(int id, [FromBody] string value)
         {
             string serializedOrder = JsonConvert.SerializeObject(value);
             Console.WriteLine("========");
@@ -163,8 +163,8 @@ namespace VRS_Base.Controllers
         }
 
         // DELETE api/values/5
-        [HttpDelete]
-        public async Task<IActionResult> DeleteAsync([FromQuery]int id)
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteAsync(int id)
         {
             string serializedOrder = JsonConvert.SerializeObject(id);
             Console.WriteLine("========");
